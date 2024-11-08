@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <TargetFrameworks>net8.0;net9.0</TargetFrameworks>
+        <Authors>Hochfrequenz Unternehmensberatung GmbH</Authors>
+        <Description>Mapper between Marktlokation Identifikationsprozess and BO4E</Description>
+        <PackageProjectUrl>https://github.com/Hochfrequenz/MaLoIdentBo4eMapper/</PackageProjectUrl>
+        <license>MIT</license>
+        <RepositoryUrl>https://github.com/Hochfrequenz/MaLoIdentBo4eMapper/</RepositoryUrl>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <!-- copied to here from repo root during the release github action -->
+    </PropertyGroup>
+
+    <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+      <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    </PropertyGroup>
+
+    <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+      <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Hochfrequenz.BO4Enet" Version="0.11.5" />
+      <PackageReference Include="MaLoIdentModels" Version="0.4.0" />
+    </ItemGroup>
+
+</Project>
