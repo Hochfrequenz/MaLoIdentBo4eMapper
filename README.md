@@ -32,16 +32,20 @@ var boneyComb = mapper.MapRequestToBo4e(maloIdentRequest);
 ```
 
 ## Documentation
+
 Todo: Add documentation here, ideally as mermaid diagram.
+
 ```mermaid
 
 ```
 
 ## Code Quality
+
 The code is automatically checked with unit tests.
 The package uses strict nullability.
 
 ## Release Workflow
+
 Create a new release [in Github](https://github.com/Hochfrequenz/MaLoIdentBo4eMapper/releases/new).
 Use a leading `v` with semantic versioning (e.g. `v1.2.3`).
 
