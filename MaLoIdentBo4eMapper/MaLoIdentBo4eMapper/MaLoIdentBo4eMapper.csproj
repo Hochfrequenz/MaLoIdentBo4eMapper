@@ -25,5 +25,7 @@
       <PackageReference Include="Hochfrequenz.BO4Enet" Version="0.11.5" />
       <PackageReference Include="MaLoIdentModels" Version="0.4.0" />
     </ItemGroup>
-
+    <ItemGroup>
+        <None Include="README.md" Pack="true" PackagePath="\"/> <!-- copied to here during the release github action -->
+    </ItemGroup>
 </Project>
