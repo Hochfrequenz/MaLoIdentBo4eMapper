@@ -9,7 +9,8 @@
         <PackageProjectUrl>https://github.com/Hochfrequenz/MaLoIdentBo4eMapper/</PackageProjectUrl>
         <license>MIT</license>
         <RepositoryUrl>https://github.com/Hochfrequenz/MaLoIdentBo4eMapper/</RepositoryUrl>
-        <PackageReadmeFile>README.md</PackageReadmeFile><!-- copied to here from repo root during the release github action -->
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <!-- copied to here from repo root during the release github action -->
     </PropertyGroup>
 
     <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
