@@ -1,0 +1,22 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaLoIdentBo4eMapper", "MaLoIdentBo4eMapper\MaLoIdentBo4eMapper.csproj", "{EBC3617E-B7CD-4209-A661-2BD403A196F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaLoIdentBo4eMapperTests", "MaLoIdentBo4eMapperTests\MaLoIdentBo4eMapperTests.csproj", "{677DAEE7-3EC8-46FB-BBD6-511FF8BE80D2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EBC3617E-B7CD-4209-A661-2BD403A196F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBC3617E-B7CD-4209-A661-2BD403A196F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBC3617E-B7CD-4209-A661-2BD403A196F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBC3617E-B7CD-4209-A661-2BD403A196F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{677DAEE7-3EC8-46FB-BBD6-511FF8BE80D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{677DAEE7-3EC8-46FB-BBD6-511FF8BE80D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{677DAEE7-3EC8-46FB-BBD6-511FF8BE80D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{677DAEE7-3EC8-46FB-BBD6-511FF8BE80D2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

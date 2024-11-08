@@ -1,0 +1,19 @@
+name: csharpier
+
+on: [push, pull_request]
+
+jobs:
+  format:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup .NET 9
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 9
+      - name: Restore .NET tools
+        run: dotnet tool restore
+        working-directory: "MaLoIdentBo4eMapper"
+      - name: Run CSharpier
+        run: dotnet csharpier --check .
+        working-directory: "MaLoIdentBo4eMapper"
