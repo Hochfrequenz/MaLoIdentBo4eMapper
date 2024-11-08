@@ -3,7 +3,7 @@
     <PropertyGroup>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
-        <TargetFrameworks>netstandard2.1;net8.0;net9.0</TargetFrameworks>
+        <TargetFrameworks>net8.0;net9.0</TargetFrameworks>
         <Authors>Hochfrequenz Unternehmensberatung GmbH</Authors>
         <Description>Mapper between Marktlokation Identifikationsprozess and BO4E</Description>
         <PackageProjectUrl>https://github.com/Hochfrequenz/MaLoIdentBo4eMapper/</PackageProjectUrl>
